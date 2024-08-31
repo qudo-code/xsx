@@ -1,0 +1,21 @@
+{
+  "name": "@qudo/xsx",
+  "version": "0.0.1",
+  "description": "Organize and scale your package.json scripts natively.",
+  "main": "index.js",
+  "type": "module",
+  "author": "qudo-code",
+  "bin": {
+    "xsx": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc -p .",
+    "dev": "tsc -w -p ."
+  },
+  "keywords": [],
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.5.1",
+    "typescript": "^5.5.4"
+  }
+}

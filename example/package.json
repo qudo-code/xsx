@@ -1,0 +1,15 @@
+{
+    "name": "example-xsx-project",
+    "description": "Example xsx usage",
+    "authors": "qudo-code",
+    "version": "1.0.0",
+    "devDependencies": {
+        "@qudo/xsx": "file:../"
+    },
+    "scripts": {
+        "build": "xsx --option-1 asdf --option-2 asdfasd build",
+        "dev": "xsx dev",
+        "start": "xsx start",
+        "test": "xsx test"
+    }
+}
